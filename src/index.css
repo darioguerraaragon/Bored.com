@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+article {
+  min-height: 90vh;
+  min-width: 90vw;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+article .divButton {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 30vh;
+  width: 40vw;
+}
+
+.divButton button {
+  background-color: rgb(135, 135, 238);
+  color: white;
+  border: none;
+  padding: 15px;
+}
+
+.divButton button:hover {
+  background-color: blue;
+  transition: all ease .8s;
+}
+
+.events h3 {
+  color: blue;
+}
